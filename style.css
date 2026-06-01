@@ -1,0 +1,93 @@
+:root{
+  --font-family: CursorGothic;
+}
+body {
+ background-color: #26251e;
+ font-family: CursorGothic;
+ color: antiquewhite;
+ padding: 0%;
+ margin: 0%;
+}
+
+
+
+nav{
+  height: 10vh;
+  width: 100% ;
+  display: flex;
+ justify-content: space-between;
+  align-items: start;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.logo{
+  width: 110px;
+}
+.logo img {
+  height: 24px;
+  width: 95px;
+}
+.items {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-family: CursorGothic;
+  gap: 20px;
+  width: auto;
+}
+.end{
+  height: 30px;
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 35px ;
+  font-weight: 700;
+}
+.end a {
+  list-style: none;
+  text-decoration: none;
+  color: aliceblue;
+  padding: 5px;
+ border-radius: 15px;
+ border: 1px solid #3d3d36;
+}
+
+.end button{
+   
+  padding: 5px;
+ 
+
+}
+.left{ background-color: #26251e;
+ border: none; 
+  color: aliceblue;
+  padding: 5px;
+
+}
+.right{
+ background-color: aliceblue;
+  color: #26251e;
+  padding: 5px; border-radius: 15px;
+ border: 1px solid #3d3d36;
+  
+}
+ .container{
+  display: flex;
+  flex-direction: column;
+  height: 60vh;
+  width: 80vw;
+margin-top : 70px;
+
+}
+
+
+.button-con{
+   height: 20px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+}
